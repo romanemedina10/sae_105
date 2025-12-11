@@ -1,0 +1,14 @@
+[ //exemple produit
+    {
+        "nom": "b",
+        "artisteAssocié": "b",
+        "listeCategories": [
+            {
+                "nom": "b",
+                "epoque": "c",
+                "editionLimitee": true,
+                "prix": 45
+            }
+        ]
+    }
+]
