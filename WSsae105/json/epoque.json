@@ -1,0 +1,86 @@
+[
+    {
+        "epoque": "60's",
+        "genre": "rock",
+        "periode": "1960-1970",
+        "listeArtistes": [
+            {
+                "nom": "Beatles",
+                "nationalite": "UK",
+                "membres": [
+                    "John Lennon",
+                    "Paul McCartney",
+                    "George Harrison",
+                    "Ringo Starr"
+                ]
+            },
+            {
+                "nom": "Beatles",
+                "nationalite": "UK",
+                "membres": [
+                    "John Lennon",
+                    "Paul McCartney",
+                    "George Harrison",
+                    "Ringo Starr"
+                ]
+            },
+            {
+                "nom": "Beatles",
+                "nationalite": "UK",
+                "membres": [
+                    "John Lennon",
+                    "Paul McCartney",
+                    "George Harrison",
+                    "Ringo Starr"
+                ]
+            }
+        ],
+        "listeEvenements": [
+            {
+                "annee": 1969,
+                "nom": "Rooftop Concert",
+                "description": "lorempsum",
+                "lieu": "Londres",
+                "artistes": "Beatles",
+                "listeBillet": [
+                    {
+                        "type": "normal",
+                        "prix": 180,
+                        "quantiteChoisis": 1,
+                        "quantiteDisponible": 2000
+                    }
+                ]
+            },
+            {
+                "annee": 1969,
+                "nom": "Rooftop Concert",
+                "description": "lorempsum",
+                "lieu": "Londres",
+                "artistes": "Beatles",
+                "listeBillet": [
+                    {
+                        "type": "normal",
+                        "prix": 180,
+                        "quantiteChoisis": 1,
+                        "quantiteDisponible": 2000
+                    }
+                ]
+            },
+            {
+                "annee": 1969,
+                "nom": "Rooftop Concert",
+                "description": "lorempsum",
+                "lieu": "Londres",
+                "artistes": "Beatles",
+                "listeBillet": [
+                    {
+                        "type": "normal",
+                        "prix": 180,
+                        "quantiteChoisis": 1,
+                        "quantiteDisponible": 2000
+                    }
+                ]
+            }
+        ]
+    }
+]
