@@ -4,5 +4,7 @@
 			"path": "WSsae105"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
 }
