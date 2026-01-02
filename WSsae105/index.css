@@ -1,8 +1,55 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/* 2. Remove default margin */
+*:not(dialog) {
+  margin: 0;
+}
+/* 3. Enable keyword animations */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    interpolate-size: allow-keywords;
+  }
+}
+body {
+  /* 4. Add accessible line-height */
+  line-height: 1.5;
+  /* 5. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+/* 6. Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+/* 7. Inherit fonts for form controls */
+input, button, textarea, select {
+  font: inherit;
+}
+/* 8. Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+/* 9. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+/*
+  10. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+
 body {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    margin: 0;
 }
 
 .container {
@@ -47,10 +94,11 @@ main {
     height: auto;
 }
 
-nav {
+.main {
     width: 100%;
-    padding: 40px 60px;
+    padding: 20px 60px;
     box-sizing: border-box;
+    background-color: #FFFDD0;
 }
 
 .menu {
@@ -183,38 +231,36 @@ input[type="search"]::-moz-search-clear {
     font-family: "Audiowide", sans-serif;
     font-size: 4rem;
     color: #82C4CF;
-    margin: 0 0 -20px 0;
+    margin: 0 0 -30px 0;
     padding-left: 40px;
 }
 
 .festivals-blocks {
     display: grid;
     grid-template-columns: 50% 50%;
-    padding:1rem;
     background: #82C4CF;
-    position: relative;
+    padding: 3rem;
 }
 .festivals-block h3{
   
   margin-top: 1rem;
-  font-size: 1.4rem;
+  font-size: 2rem;
   color: #FFFDD0;
   z-index: 2;
+
 }
 .photo{
-  width: 620px;
+  width: 100%;
   height: auto;
   border-radius: 40px;
-  display: block;
-  position: relative;
-  z-index: 1;
+  
+
 }
 .poster{
   width: 260px;
   height: auto;
   transform: rotate(12deg);
-  z-index: 2;
-
+  transform-origin: top left;
   box-shadow: 0 20px 40px rgba(0,0,0,0.25);
   
 }
