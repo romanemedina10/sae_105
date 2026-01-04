@@ -1,135 +1,113 @@
-
 [
     {
-        "artiste":"Beatles",
-        "epoque":"Année 60's",
-        "genre":"Rock",
-        "nom":"Abbey Road",
-        "ListeEditions":[
+        "artiste": "Beatles",
+        "epoque": "Année 60's",
+        "genre": "Rock",
+        "nom": "Abbey Road",
+        "ListeEditions": [
             {
-                "label": "Apple Records", 
-                "pays":"Angleterre", 
-                "prix":45,
-                "dateEdition":"1969",
-                "type":"vinyl",
+                "label": "Apple Records",
+                "pays": "Angleterre",
+                "prix": 45,
+                "dateEdition": "1969",
+                "type": "vinyl",
                 "editionLimitee": true,
-                "couleur":"bleu" 
-            }, 
+                "couleur": "bleu"
+            },
             {
-
-                "label": "Parlophone", 
-                "pays":"Etats-Unis", 
-                "prix":35,
-                "dateEdition":"1978",
-                "type":"vinyl",
+                "label": "Parlophone",
+                "pays": "Etats-Unis",
+                "prix": 35,
+                "dateEdition": "1978",
+                "type": "vinyl",
                 "editionLimitee": false,
-                "couleur":"noir"
-
+                "couleur": "noir"
             }
-                
         ]
-        
     },
-    
     {
-        "artiste":"BeachBoys",
-        "epoque":"Année 60's",
-        "genre":"Rock",
-        "nom":"Pet Sounds",
-        "ListeEditions":[
+        "artiste": "BeachBoys",
+        "epoque": "Année 60's",
+        "genre": "Rock",
+        "nom": "Pet Sounds",
+        "ListeEditions": [
             {
-                "label": "Columbia", 
-                "pays":"Etats-Unis", 
-                "prix":35,
-                "dateEdition":"1967",
-                "type":"vinyl",
+                "label": "Columbia",
+                "pays": "Etats-Unis",
+                "prix": 35,
+                "dateEdition": "1967",
+                "type": "vinyl",
                 "editionLimitee": true,
-                "couleur":"vert" 
-            }, 
+                "couleur": "vert"
+            },
             {
-
-                "label": "Parlophone", 
-                "pays":"Etats-Unis", 
-                "prix":35,
-                "dateEdition":"1978",
-                "type":"vinyl",
+                "label": "Parlophone",
+                "pays": "Etats-Unis",
+                "prix": 35,
+                "dateEdition": "1978",
+                "type": "vinyl",
                 "editionLimitee": false,
-                "couleur":"noir"
-
+                "couleur": "noir"
             }
-                
         ]
-        
     },
-
-
-
     {
-        "artiste":"Queen",
-        "epoque":"année 70's",
-        "genre":"rock",
-        "nom":"A Night At the Opera",
-        "ListeEditions":[
+        "artiste": "Queen",
+        "epoque": "année 70's",
+        "genre": "rock",
+        "nom": "A Night At the Opera",
+        "ListeEditions": [
             {
-                "label": "EMI", 
-                "pays":"angleterre", 
-                "prix":45,
-                "dateEdition":"1988",
-                "type":"vinyl",
-                "editionLimitee": false, 
-                "couleur":"noir"
-            }, 
+                "label": "EMI",
+                "pays": "angleterre",
+                "prix": 45,
+                "dateEdition": "1988",
+                "type": "vinyl",
+                "editionLimitee": false,
+                "couleur": "noir"
+            },
             {
-
-                "label": "Elektra", 
-                "pays":"Japon", 
-                "prix":200,
-                "dateEdition":"1975",
-                "editionLimitee": true, 
-                "couleur":"blanc"
+                "label": "Elektra",
+                "pays": "Japon",
+                "prix": 200,
+                "dateEdition": "1975",
+                "editionLimitee": true,
+                "couleur": "blanc"
             }
-                
         ]
-        
     },
-
     {
-        "artiste":"Led Zeppelin",
-        "epoque":"année 70's",
-        "genre":"rock",
-        "nom":"Led Zeppelin III",
-        "ListeEditions":[
+        "artiste": "Led Zeppelin",
+        "epoque": "année 70's",
+        "genre": "rock",
+        "nom": "Led Zeppelin III",
+        "ListeEditions": [
             {
-                "label": "Atlantic Records", 
-                "pays":"Angleterre", 
-                "prix":25,
-                "dateEdition":"1988",
-                "type":"cassette",
-                "editionLimitee": false, 
-                "couleur":"noir"
-            }, 
+                "label": "Atlantic Records",
+                "pays": "Angleterre",
+                "prix": 25,
+                "dateEdition": "1988",
+                "type": "cassette",
+                "editionLimitee": false,
+                "couleur": "noir"
+            },
             {
-
-                "label": "Atlantic Records", 
-                "pays":"Etats-Unis", 
-                "prix":80,
-                "dateEdition":"1970",
-                "editionLimitee": true, 
-                "couleur":"rouge"
+                "label": "Atlantic Records",
+                "pays": "Etats-Unis",
+                "prix": 80,
+                "dateEdition": "1970",
+                "editionLimitee": true,
+                "couleur": "rouge"
             }
 
             {
-
-                "label": "Atlantic Records", 
-                "pays":"Etats-Unis", 
-                "prix":30,
-                "dateEdition":"1973",
-                "editionLimitee": false, 
-                "couleur":"noir"
+                "label": "Atlantic Records",
+                "pays": "Etats-Unis",
+                "prix": 30,
+                "dateEdition": "1973",
+                "editionLimitee": false,
+                "couleur": "noir"
             }
-                
         ]
-        
-    }, 
-
+    },
 ]
