@@ -1,0 +1,9 @@
+main img{
+    border-radius: 50%;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.35);
+    
+}
+main{
+    display: flex; 
+    flex-direction: row;
+}
