@@ -98,7 +98,7 @@
                 "dateEdition": "1970",
                 "editionLimitee": true,
                 "couleur": "rouge"
-            }
+            },
 
             {
                 "label": "Atlantic Records",
@@ -109,5 +109,5 @@
                 "couleur": "noir"
             }
         ]
-    },
+    }
 ]
