@@ -1,21 +1,25 @@
 
-.Qui {
+.Quoi {
     margin-top: 1rem;
     padding-top: 4rem;
     width: 100%;
 }
 
-.QuiSommesNous-title {
+.LesCoulisses-title {
     font-family: "Audiowide", sans-serif;
     font-size: 4rem;
-    color: #aaa2d0;
+    color:#C90086;
     margin: 0;
     text-align: center;
 }
 
 .premier-blocks {
-    background: #aaa2d0;
+    background:#eb76aa;
     padding: 5rem;
+}
+.premier-blocks p {
+    text-align: center;
+
 }
 
 .photo {
@@ -30,17 +34,19 @@
 .photo img {
     grid-column: 1;
     grid-row: 1 / span 2;
-    height: 450px;
-    width: auto;
     border-radius: 1rem;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
     align-self: center;
 }
 
-.photo figcaption {
+h2 {
     grid-column: 2;
     grid-row: 1;
     margin: 0 0 16px 0;
+    color: #FFFDD0;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 2rem;
 }
 
 .photo p {
@@ -50,6 +56,7 @@
     max-width: 520px;
     line-height: 1.6;
     color: #F8FCFC;
+    text-align: left;
 }
 .photo img {
     transition: transform 250ms ease, box-shadow 250ms ease;
@@ -60,22 +67,23 @@
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
 }
 
-
-.liens {
-    color: #C90086;
-    text-decoration: none;
-
+.Objet {
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+    display:flex; 
+    align-items: center;
+    justify-content: space-between; 
 }
 
-.liensTitre {
-    text-decoration: none;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #FFFDD0;
-
+.Objet h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
 }
 
-
+.texte{
+    max-width: 600px;
+}
 
 /* sponsors début  */
 .partners {

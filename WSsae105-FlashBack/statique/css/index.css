@@ -113,7 +113,7 @@
 
     padding: 0 10px 0 22px;
 
-    background: rgba(130, 196, 207);
+    background: rgb(211, 236, 241);
     /* bleu translucide */
     border: 2px solid rgba(130, 196, 207);
     border-radius: 999px;
@@ -275,6 +275,12 @@ h1 {
 .logo:hover {
     animation: none;
     transform: scale(1.08);
+}
+
+.footer-links p {
+    color: #F8FCFC;
+    font-style: italic;
+    font-weight: lighter;
 }
 
 
