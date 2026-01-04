@@ -6,4 +6,19 @@ main img{
 main{
     display: flex; 
     flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 8rem;
+
+}
+figcaption{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color:#82C4CF ;
+    text-align: center;
+    margin-top: 2rem;
+}
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items :center;
 }
