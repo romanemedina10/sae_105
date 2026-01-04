@@ -6,38 +6,56 @@
     <meta name="author" content="Medina/Regis" />
     <meta name="keywords" content="Flashback, musique, concert" />
     <meta name="description" content="Page d'accueil FlashBack" />
-    <title> Accueil FlashBack </title>
+    <title>Accueil FlashBack</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="index.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css" />
 </head>
 
 <body>
     <div class="container">
         <header>
-            <img src="media/logo_cream.svg" alt="FlashBack">
+            <a href="index.html" class="header-logo" aria-label="Retour à l'accueil">
+                <img src="media/logo_cream.svg" alt="FlashBack">
+            </a>
             <a class="header-link" href="contact.html">Nous contacter</a>
+            <section class="recherches1">
+                <form class="barreRecherches1" action="#">
+                    <input type="search" placeholder="" aria-label="Rechercher">
+                    <button type="submit" aria-label="Lancer la recherche">
+                        <img src="media/loupe.svg" alt="">
+                    </button>
+                </form>
+            </section>
         </header>
-          <nav class="main">
+        <nav class="head">
             <ul class="menu">
                 <li><a href="">Billeterie</a></li>
                 <li><a href="">Secouez La Scène!</a></li>
                 <li class="deroulant"><a href="#">Infos Pratiques</a>
                     <ul class="sous">
-                        <li><a href="LesCoulisses.html">Les coulisses</a></li> <!-- Mettre les bons liens -->
-                        <li><a href="QuiSommesNous.html">Qui sommes-nous?</a></li>
-                        <li><a href="NousRejoindre.html">Nous rejoindre</a></li>
-                        <li><a href="Regles.html">Les règles</a></li>
+                        <li><a href="pages/LesCoulisses.html">Les coulisses</a></li> <!-- Mettre les bons liens -->
+                        <li><a href="pages/QuiSommesNous.html">Qui sommes-nous?</a></li>
+                        <li><a href="">Nous rejoindre</a></li>
+                        <li><a href="">Les règles</a></li>
                     </ul>
                 </li>
             </ul>
         </nav>
 
         <main>
-            <img class="logo" src="media/logo_Flash-Back.svg" alt="Flashback">
+            <div class="reveal">
+                <h1>Appuie pour jouer</h1>
+            </div>
+            <div class="accueil">
+                <img src="media/AccueilGauche.svg" alt="">
+                <img class="logo" src="media/logo_Flash-Back.svg" alt="Flashback">
+                <img src="media/AccueilDroite.svg" alt="">
+            </div>
             <section class="recherches">
                 <form class="barreRecherches" action="#">
                     <input type="search" placeholder="" aria-label="Rechercher">
@@ -57,6 +75,24 @@
                         <img class="poster" src="media/LiveAidPoster.jpg" alt="Affiche Live Aid">
                     </div>
                 </div>
+                <section class="images-liens">
+                    <a href="../LesCoulisses.html" class="image-link">
+                        <img src="media/LesCoulisses.svg" alt="">
+                    </a>
+
+                    <a href="../QuiSommesNous.html" class="image-link">
+                        <img src="media/QuiSommesNous.svg" alt="">
+                    </a>
+
+                    <a href="" class="image-link">
+                        <img src="media/NousRejoindre.svg" alt="">
+                    </a>
+                    <a href="" class="image-link">
+                        <img src="media/LesRegles.svg" alt="">
+                    </a>
+
+                </section>
+                
             </section>
         </main>
 
@@ -89,8 +125,8 @@
             <div class="footer-inner">
                 <!-- liens -->
                 <nav class="footer-links" aria-label="lien footer">
-                    <a href="READ.ME">Read Me</a>
-                    <a href="contact.html">Contacter</a>
+                    <a href="">Read Me</a>
+                    <a href="">Contacter</a>
                 </nav>
                 <div class="footer-center">
                     <a href="index.html" class="footer-logo" aria-label="Retour à l'accueil">
@@ -103,7 +139,9 @@
                         <a class="tiktok" href="#" aria-label="TikTok">
                             <img src="media/tiktok.svg" alt="">
                         </a>
-                        <a class="spotify" href="#" aria-label="Spotify">
+                        <a class="spotify"
+                            href="https://open.spotify.com/playlist/2Wwa4JPh9tyDMYDJDuvkxL?si=JWIik5FaTY26_mhkoL1Xsw"
+                            aria-label="Spotify">
                             <img src="media/spotify.svg" alt="">
                         </a>
                     </div>

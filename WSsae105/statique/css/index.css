@@ -1,0 +1,658 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+*:not(dialog) {
+    margin: 0;
+}
+
+/* 3. Enable keyword animations */
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        interpolate-size: allow-keywords;
+    }
+}
+
+body {
+    /* 4. Add accessible line-height */
+    line-height: 1.5;
+    /* 5. Improve text rendering */
+    -webkit-font-smoothing: antialiased;
+}
+
+/* 6. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* 7. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* 8. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/* 9. Improve line wrapping */
+p {
+    text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
+
+/*
+  10. Create a root stacking context
+*/
+#root,
+#__next {
+    isolation: isolate;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+.container {
+    width: 1240px;
+    background-color: #F8FCFC;
+
+}
+
+
+header {
+    height: 110px;
+    background: #2B2D42;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 20px;
+    padding: 0 60px;
+}
+
+header img {
+    height: 150px;
+    width: auto;
+}
+/* Section recherches */
+.recherches1 {
+    display: flex;
+    justify-content: left;
+
+}
+
+
+.barreRecherches1 {
+    width: 20rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0 22px;
+    background:#2B2D42;
+    border: 2px solid rgba(130, 196, 207, 0.35);
+    border-radius: 99px;
+}
+
+.barreRecherches1 input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    outline: none;
+
+    font-family: inherit;
+    font-size: 1rem;
+    color: #F8FCFC;
+}
+
+/* Recherche Internet pour retirer la croix de la barre de recherche sur Chrome, Edge, Safari */
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+/* Recherche Internet pour retirer la croix de la barre de recherche sur Firefox*/
+input[type="search"]::-moz-search-clear {
+    display: none;
+}
+
+.barreRecherches1 button {
+    width: 2.5rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 50%;
+    background: #aec4c4;
+    /* tester le contraste */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.barreRecherches1 button img {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block;
+}
+
+.recherches1 {
+    margin-left: 13.75rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-logo {
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.header-link {
+    position: absolute;
+    left: 60px;
+
+    color: #F8FCFC;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    gap: 60px;
+}
+
+.accueil {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo {
+    position: relative;
+    width: 320px;
+    height: auto;
+    z-index: 2;
+
+}
+
+.head {
+    width: 100%;
+    padding: 20px 60px;
+    box-sizing: border-box;
+    background-color: #FFFDD0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu>li {
+    font-size: 2rem;
+    color: #2B2D42;
+    position: relative;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #2B2D42;
+}
+
+.menu a:hover {
+    color: #C90086;
+}
+
+.sous {
+    list-style: none;
+    margin: 0;
+    padding: 18px 24px;
+
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 320px;
+    background: rgba(43, 45, 66, 0.08);
+    border-radius: 8px;
+
+    display: none;
+}
+
+.sous li {
+    padding: 12px 0;
+}
+
+.sous a {
+    display: block;
+    padding: 4px 0;
+    font-size: 2rem;
+    color: #2B2D42;
+}
+
+.deroulant:hover .sous {
+    display: block;
+}
+
+.sous a:hover {
+    opacity: 0.7;
+}
+
+
+/* Section recherches */
+.recherches {
+    display: flex;
+    justify-content: center;
+}
+
+.barreRecherches {
+    width: 520px;
+    height: 56px;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 0 10px 0 22px;
+
+    background: rgba(130, 196, 207, 0.35);
+    /* bleu translucide */
+    border: 2px solid rgba(130, 196, 207, 0.35);
+    border-radius: 999px;
+}
+
+.barreRecherches input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    outline: none;
+
+    font-family: inherit;
+    font-size: 1.1rem;
+    color: #2B2D42;
+}
+
+/* Recherche Internet pour retirer la croix de la barre de recherche sur Chrome, Edge, Safari */
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+/* Recherche Internet pour retirer la croix de la barre de recherche sur Firefox*/
+input[type="search"]::-moz-search-clear {
+    display: none;
+}
+
+.barreRecherches button {
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    background: #aec4c4;
+    /* tester le contraste */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.barreRecherches button img {
+    width: 25px;
+    height: 25px;
+    display: block;
+}
+
+
+.festivals {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.festivals-title {
+    font-family: "Audiowide", sans-serif;
+    font-size: 4rem;
+    color: #82C4CF;
+    margin: 0 0 -30px 0;
+    padding-left: 2rem;
+}
+
+.festivals-blocks {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background: #82C4CF;
+    padding: 3rem;
+}
+
+.festivals-block h3 {
+
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: #FFFDD0;
+    z-index: 2;
+
+}
+
+.photo {
+    width: 100%;
+    height: auto;
+    border-radius: 40px;
+    filter: drop-shadow(0 0 0.75rem rgb(27, 39, 44));
+
+}
+
+.photo {
+    transition: transform 250ms ease, box-shadow 250ms ease;
+}
+
+.photo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+.poster {
+    width: 260px;
+    height: auto;
+    transform: rotate(12deg);
+    transform-origin: top left;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+
+}
+
+.poster {
+    transition: transform 250ms ease, box-shadow 250ms ease;
+}
+
+.poster:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* sponsors début  */
+.partners {
+    padding: 80px 0 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.partners h2 {
+    font-family: "Audiowide", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color: #2B2D42;
+    margin: 0;
+
+}
+
+.partners-slider {
+    width: 100%;
+    overflow: hidden;
+}
+
+.partners-logo {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    overflow-x: hidden;
+    /* vidéo Youtube pour animation: @Coding2GO  */
+    animation: spin 15s infinite linear;
+}
+
+.partners-logo img {
+    height: 100px;
+    width: auto;
+    display: block;
+    margin-right: 55px;
+
+}
+
+.partners-logo img:last-child {
+    margin-right: 0;
+}
+
+@keyframes spin {
+    from {
+        translate: 0;
+    }
+
+    to {
+        translate: -50%;
+    }
+}
+
+.partners-logo ::-webkit-scrollbar {
+    display: none;
+}
+
+/* sponsors fin  */
+
+/* footer début */
+.footer-inner {
+    background-color: #2B2D42;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.4fr;
+    align-items: center;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding-right: 120px;
+    padding-left: 40px;
+    padding-bottom: 100px;
+    font-size: 1.5rem;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #F8FCFC;
+
+}
+
+.footer-links a:hover {
+    color: #FFB8E7;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.footer-logo {
+    margin-top: 40px;
+    width: 300px;
+    height: 300px;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 22px;
+    margin-bottom: 40px;
+}
+
+.footer-socials a {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.footer-socials img {
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+/* Newsletter */
+.footer-newsletter {
+    justify-self: end;
+    padding-left: 120px;
+    padding-right: 40px;
+    padding-bottom: 100px;
+}
+
+.footer-newsletter h1 {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    color: #F8FCFC;
+    margin-bottom: 0 0 16px 0;
+}
+
+.pill {
+    display: flex;
+    align-items: center;
+    height: 78px;
+    width: 560px;
+    border: 3px solid #FFFDD5;
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.pill input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    padding: 0 28px;
+    font-family: inherit;
+    font-size: 1.5rem;
+    outline: none;
+    color: #F8FCFC;
+}
+
+.pill button {
+    height: 100%;
+    border: none;
+    padding: 0 40px;
+    background: #FFFDD0;
+    font-family: inherit;
+    font-weight: bold;
+    color: #2B2D42;
+    font-size: 1rem;
+}
+
+/* footer fin  */
+
+
+/* rajout  */
+h1 {
+    font-size: 3.5rem;
+    color: #FFB8E7;
+    font-family: "Pixelify Sans";
+    font-weight: 500;
+    word-spacing: 0.01rem;
+    text-wrap: nowrap;
+}
+.reveal {
+    opacity: 0;
+    transform: scale(0.95);
+    animation: zoom 1.5s ease forwards;
+}
+
+@keyframes zoom {
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.logo {
+    animation: bounce 1.6s ease-in-out infinite;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
+.logo {
+    animation: bounce 1.6s ease-in-out infinite;
+    transition: transform 250ms ease;
+}
+
+.logo:hover {
+    animation: none;
+    transform: scale(1.08);
+}
+
+
+
+/* images cliquables  */
+
+.images-liens {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 100px auto;
+  max-width: 1200px;
+}
+
+.image-link img {
+  width: 100%;
+  height: auto;
+  transition: transform 300ms ease, box-shadow 300ms ease;
+}
+
+.image-link:hover img {
+  transform: scale(1.05);
+}
