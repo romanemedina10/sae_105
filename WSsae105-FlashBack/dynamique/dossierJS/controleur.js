@@ -16,48 +16,42 @@ for (let j = 0; j < epoqueData.listeArtistes.length; j++) {
 article = `
 <article class="epoque">
             <figure>
-                <img src="media/${epoqueData.image}" alt="Pas encore définie">
+                <img src="${epoqueData.image}" alt="Pas encore définie">
             </figure>
 
-            <h2>Les années ${epoqueData.epoque}</h2>
+            <h2>${epoqueData.titre}</h2>
 
-            <button type="button" class="open-modal">
+            <button class="open-modal">
                 En savoir plus
             </button>
-            </article>
+            
             <dialog class="epoque-modal">
-                <h3>Les caractéristiques des années ${epoqueData.epoque}</h3>
+                <h3>Les caractéristiques des ${epoqueData.titre}</h3>
                 <ul>
-                    <li>Date de début: ${epoqueData.dateDebut}</li>
-                    <li>Date de fin: ${epoqueData.dateFin}</li>
+                    <li>Titre: ${epoqueData.titre}</li>
+                    <li>Période: ${epoqueData.periode}</li>
                     <li>Genre: ${epoqueData.genre}</li>
+                    <li>Resume: ${epoqueData.resume}</li>
                 </ul>
-                <h4>Artistes principaux:</h4>
-                <ul>
-                    ${listeArtistesHTML}
-                </ul>
-                <button type="button" class="close-modal">fermer</button>
+                <button class="close-modal">fermer</button>
                 </dialog>
+                </article>
 `;
 
 // 3. Ajout de la card au conteneur
 epoqueContainer.innerHTML += article;
 }
 
-// gestion des modales
-const openModalButtons = document.querySelectorAll(".open-modal");
-const closeModalButtons = document.querySelectorAll(".close-modal");
+// ouvrir et fermer une modale (boite de dialogue)
+const openButtons = document.querySelectorAll(".open-modal");
 
-openModalButtons.forEach((button, index) => {
-    button.addEventListener("click", () => {
-        const modal = document.querySelectorAll(".epoque-modal")[index];
-        modal.showModal();
-    });
-});
+openButtons.forEach(button => {
+  const article = button.closest(".epoque"); // remonte dans les parents jusqu'à l'article de class hotel
+  const dialog = article.querySelector(".epoque-modal"); // sélectionne la modale dans l'article
+  const closeButton = dialog.querySelector(".close-modal"); // sélectionne le bouton de fermeture dans la modale
 
-closeModalButtons.forEach((button, index) => {
-    button.addEventListener("click", () => {
-        const modal = document.querySelectorAll(".epoque-modal")[index];
-        modal.close();
-    });
+  button.addEventListener("click", () => dialog.showModal());
+
+  closeButton.addEventListener("click", () => dialog.close());
+
 });
