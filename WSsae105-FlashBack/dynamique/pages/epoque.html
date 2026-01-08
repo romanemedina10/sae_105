@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les époques</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron:wght@400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="epoque.css">
+    <script src="epoquecopy.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-left">
+            <button type="button">☰</button>
+        </div>
+
+        <nav class="header-center">
+            <a href="#">Nous contacter</a>
+        </nav>
+
+        <div class="header-right">
+            <span>FR</span> ⌄
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Qui nous sommes ?</a></li>
+            <li><a href="#">Les règles du voyages</a></li>
+            <li><a href="#">Nous rejoindre ?</a></li>
+            <li><a href="#">Les coulisses</a></li>
+            <li><a href="#">Les artistes</a></li>
+            <li><a href="#">Nos produits de collection</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="epoques">
+            <!-- En théorie le contenu dynamique devrait débuter ici et gérer par epoque.js -->
+            <!-- <article class="epoque">
+            <figure>
+                <img src="media/60.jpg" alt="Pas encore définie">
+            </figure>
+
+            <h2>Les années 60</h2>
+
+            <button type="button" id="open-modal">
+                En savoir plus
+            </button>
+            </article>
+            <dialog id="epoque-modal">
+                <h3>Les caractéristiques des années 60</h3>
+                <ul>
+                    <li>Date de début: 1960</li>
+                    <li>Date de fin: 1969</li>
+                    <li>Genre: Rock</li>
+                </ul>
+                <button type="button" id="close-modal">fermer</button>
+                </dialog> -->
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+
+            <!-- Colonne gauche -->
+            <div class="footer-left">
+                <a href="#">Read Me</a>
+                <a href="#">Nous contacter</a>
+            </div>
+
+            <!-- Centre -->
+            <div class="footer-center">
+                <div class="logo"></div>
+            </div>
+
+            <!-- Colonne droite -->
+            <div class="footer-right">
+                <p class="newsletter-title">GET THE NEWS</p>
+
+                <form class="newsletter">
+                    <input type="email" placeholder="your email here">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+
+        </div>
+    </footer>
+    <script src="controleur.js"></script>
+</body>
+
+</html>
