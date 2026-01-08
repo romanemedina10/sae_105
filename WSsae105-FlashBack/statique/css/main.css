@@ -135,7 +135,7 @@ header img {
 
 }
 
-.menu {
+.menu { /* le faire un peu plus petit */ 
     list-style: none;
     margin: 0;
     padding: 0;
