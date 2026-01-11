@@ -135,7 +135,7 @@ header img {
 
 }
 
-.menu {
+.menu { /* le faire un peu plus petit */ 
     list-style: none;
     margin: 0;
     padding: 0;
@@ -254,7 +254,7 @@ header img {
 .footer-inner {
     background-color: #2B2D42;
     display: grid;
-    grid-template-columns: 1fr 1fr 1.4fr;
+    grid-template-columns: 1fr 1fr 1.4fr; /* recherche internet pour le terme fr puisque nombres décimaux trop imprécis*/ 
     align-items: center;
 }
 

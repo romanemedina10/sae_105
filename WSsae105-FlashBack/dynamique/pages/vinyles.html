@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Medina/Regis">
+    <meta name="keywords" content="Flashback, musique, concert">
+    <meta name="description" content="Page d'accueil FlashBack">
+    <title>Accueil FlashBack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/vinyles.css" />
+    <link rel="icon" type="image/png" href="../../statique/media/favicon.png">
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <a class="header-link" href="../../statique/pages/Contact.html">Nous contacter</a>
+            </div>
+            <div>
+                <a href="../index.html" class="header-logo" aria-label="Retour à l'accueil">
+                    <img src="../../statique/media/logo_cream.svg" alt="FlashBack">
+                </a>
+            </div>
+            <section class="recherches1">
+                <form class="barreRecherches1" action="#">
+                    <input type="search" placeholder="" aria-label="Rechercher">
+                    <button type="submit" aria-label="Lancer la recherche">
+                        <img src="../../statique/media/loupe.svg" alt="">
+                    </button>
+                </form>
+            </section>
+        </header>
+        <nav class="head">
+            <ul class="menu">
+                <li><a href="">Billeterie</a></li>
+                <li><a href="produits.html">Produits</a></li>
+                <li class="deroulant"><a href="#">Infos Pratiques</a>
+                    <ul class="sous">
+                        <li><a href="../../statique/pages/LesCoulisses.html">Les coulisses</a></li>
+                        <!-- Mettre les bons liens -->
+                        <li><a href="../../statique/pages/QuiSommesNous.html">Qui sommes-nous?</a></li>
+                        <li><a href="">Nous rejoindre</a></li>
+                        <li><a href="">Les règles</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <section class="produits">
+                <h2 id="vinyles-title" class="produits-title">The Beatles</h2>
+                <div class="produits-blocks">
+                    <div id="vinyles" class="produits-article">
+
+                    </div>
+                </div>
+
+            </section>
+        </main>
+
+        <section class="partners">
+            <h2> Nos Partenaires</h2>
+            <div class="partners-slider">
+                <div class="partners-logo">
+                    <img src="../../statique/media/54_ultra.svg" alt="54 Ultra">
+                    <img src="../../statique/media/Bis.svg" alt="Bis">
+                    <img src="../../statique/media/EMI.svg" alt="EMI">
+                    <img src="../../statique/media/OR.svg" alt="Oracle Record">
+                    <img src="../../statique/media/Capitol_Records.svg" alt="Capitol Records">
+                    <img src="../../statique/media/Miami_Vice.svg" alt="Miami Vice">
+                    <img src="../../statique/media/MTV.svg" alt="MTV">
+                    <img src="../../statique/media/LA.svg" alt="LA">
+                    <!-- duplication pour animation -->
+                    <img src="../../statique/media/54_ultra.svg" alt="54 Ultra" aria-hidden="true">
+                    <img src="../../statique/media/Bis.svg" alt="Bis" aria-hidden="true">
+                    <img src="../../statique/media/EMI.svg" alt="EMI" aria-hidden="true">
+                    <img src="../../statique/media/OR.svg" alt="Oracle Record" aria-hidden="true">
+                    <img src="../../statique/media/Capitol_Records.svg" alt="Capitol Records" aria-hidden="true">
+                    <img src="../../statique/media/Miami_Vice.svg" alt="Miami Vice" aria-hidden="true">
+                    <img src="../../statique/media/MTV.svg" alt="MTV" aria-hidden="true">
+                    <img src="../../statique/media/LA.svg" alt="LA" aria-hidden="true">
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-inner">
+                <!-- liens -->
+                <nav class="footer-links" aria-label="lien footer">
+                    <a href="">Read Me</a>
+                    <a href="../../statique/pages/Contact.html">Contact</a>
+                    <p> Romane Medina</p>
+                </nav>
+                <div class="footer-center">
+                    <a href="../index.html" class="footer-logo" aria-label="Retour à l'accueil">
+                        <img src="../../statique/media/logo_FB_footer.svg" alt="Logo Flashback">
+                    </a>
+                    <div class="footer-socials">
+                        <a class="instagram" href="#" aria-label="Instagram">
+                            <img src="../../statique/media/instagram.svg" alt="">
+                        </a>
+                        <a class="tiktok" href="#" aria-label="TikTok">
+                            <img src="../../statique/media/tiktok.svg" alt="">
+                        </a>
+                        <a class="spotify"
+                            href="https://open.spotify.com/playlist/2Wwa4JPh9tyDMYDJDuvkxL?si=JWIik5FaTY26_mhkoL1Xsw"
+                            aria-label="Spotify">
+                            <img src="../../statique/media/spotify.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <!-- newsletter -->
+                <div class="footer-newsletter">
+                    <h1>Get The News</h1>
+                    <form action="#">
+                        <div class="pill">
+                            <input type="email" placeholder="your email here" required />
+                            <button>Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </footer>
+        <div class="overlay" hidden>
+            <div class="modal">
+                <button class="close" aria-label="Fermer">×</button>
+                <p id="texte"></p>
+            </div>
+        </div>
+    </div>
+    <script>
+        const s = new URLSearchParams(window.location.search);
+        const v = s.get("v");
+        fetch("../../json/produits.json")
+            .then(reponse => reponse.json())
+            .then(produits => {
+                const container = document.getElementById("vinyles");
+                produits.filter(element => element.nom == v).forEach(element => {
+                    document.getElementById("vinyles-title").innerHTML = `${element.artiste} - ${element.nom}`;
+
+                    element.ListeEditions.forEach(edition => {
+                        container.innerHTML += `<article class="produit">
+                            <figure class="Beatles">
+                                <img src="../media/produits/${edition.image}" alt="${element.nom}">
+                            </figure>
+                            <p class="label">${edition.label}</p>
+                            <p class="DateEdition">${edition.dateEdition}</p>
+                            <p class="pays">${edition.pays}</p>
+                        <div class="prix1">
+                            <p class="prix">${edition.prix}€</p>
+                            <h5 class="${edition.editionLimitee ? 'EL' : ''}">${edition.editionLimitee ? 'Edition Limitée' : ''}</h5>
+                        </div>
+                            <p class="couleur" style="--couleur:${edition.couleurCSS}">${edition.couleur}</p>
+                        
+                        <div class="bouton-centré">
+                            <button onclick="ouvreDescription(this)" class="btn-description" aria-expanded="false" data-texte="${edition.description}">
+                            
+                            </button>
+                         </div>
+
+                        <div class="description-box" hidden>
+                            <p>${edition.description}</p>
+                        </div>
+
+                        </article>`
+
+                    })
+                });
+            })
+
+        function ouvreDescription(button) {
+            overlay.classList.add("active");
+            document.getElementById("texte").innerHTML=button.dataset["texte"]
+        }
+
+
+        const overlay = document.querySelector(".overlay");
+        const modal = document.querySelector(".modal");
+        const closeBtn = document.querySelector(".close");
+
+        closeBtn.addEventListener("click", () => {
+            overlay.classList.remove("active");
+        });
+
+
+        overlay.addEventListener("click", () => {
+            overlay.classList.remove("active");
+        });
+
+
+        modal.addEventListener("click", (e) => {
+            e.stopPropagation();
+        });
+
+
+
+    </script>
+</body>
+
+</html>

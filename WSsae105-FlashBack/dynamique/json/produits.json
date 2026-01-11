@@ -1,0 +1,252 @@
+[
+    {
+        "artiste": "Beatles",
+        "epoque": "Années 60's",
+        "genre": "Rock",
+        "nom": "Abbey Road",
+        "popularite": 5,
+        "image": "B1.png",
+        "ListeEditions": [
+            {
+                "label": "Apple Records",
+                "pays": "Angleterre",
+                "prix": 45,
+                "dateEdition": "1969",
+                "type": "vinyl",
+                "editionLimitee": true,
+                "couleur": "bleu",
+                "couleurCSS": "#02a",
+                "description": "Édition à l’esthétique sobre mettant en valeur la maturité musicale du groupe, marquée par des arrangements sophistiqués, l’usage du Moog et le célèbre medley de la face B.",
+                "image": "BB.png"
+            },
+            {
+                "label": "Parlophone",
+                "pays": "Etats-Unis",
+                "prix": 35,
+                "dateEdition": "1978",
+                "type": "vinyl",
+                "editionLimitee": false,
+                "couleur": "noir",
+                "couleurCSS": "black",
+                "description": "Édition à l’identité visuelle plus lumineuse soulignant l’aspect mélodique et harmonique de l’album, dernier enregistré par le groupe et emblématique de la pop-rock de la fin des années 1960.",
+                "image": "Bblack.png"
+            }
+        ]
+    },
+    {
+        "artiste": "BeachBoys",
+        "epoque": "Années 60's",
+        "genre": "Rock",
+        "nom": "Pet Sounds",
+        "popularite": 3,
+        "image": "BB1.png",
+        "ListeEditions": [
+            {
+                "label": "Columbia",
+                "pays": "Etats-Unis",
+                "prix": 35,
+                "dateEdition": "1967",
+                "type": "vinyl",
+                "editionLimitee": true,
+                "couleur": "vert",
+                "couleurCSS": "green",
+                "description": "Pressage coloré en édition limitée mettant en valeur l’album culte de Brian Wilson, reconnu pour ses orchestrations novatrices et son influence majeure sur la pop moderne.",
+                "image": "BBG.png"
+            },
+            {
+                "label": "Parlophone",
+                "pays": "Etats-Unis",
+                "prix": 35,
+                "dateEdition": "1978",
+                "type": "vinyl",
+                "editionLimitee": false,
+                "couleur": "noir",
+                "couleurCSS": "black",
+                "description": "Réédition standard offrant une restitution fidèle de ce classique des années 1960, souvent cité parmi les albums les plus importants de l’histoire de la musique.",
+                "image": "BBB.png"
+            }
+        ]
+    },
+    {
+        "artiste": "Queen",
+        "epoque": "Années 70's",
+        "genre": "rock",
+        "nom": "A Night At the Opera",
+        "popularite": 4.5,
+        "image": "Q1.png",
+        "ListeEditions": [
+            {
+                "label": "EMI",
+                "pays": "angleterre",
+                "prix": 45,
+                "dateEdition": "1988",
+                "type": "vinyl",
+                "editionLimitee": false,
+                "couleur": "noir",
+                "couleurCSS": "black",
+                "description": "Réédition remasterisée offrant une meilleure clarté sonore, mettant en valeur la richesse des arrangements, les harmonies vocales et la production ambitieuse de l’album.",
+                "image": "QB.png"
+            },
+            {
+                "label": "Elektra",
+                "pays": "Japon",
+                "prix": 200,
+                "dateEdition": "1975",
+                "editionLimitee": true,
+                "couleur": "blanc",
+                "couleurCSS": "white",
+                "description": "Version collector reconnue pour sa qualité de pressage et son son particulièrement précis.",
+                "image": "QBL.png"
+            },
+            {
+                "label": "LIVE",
+                "pays": "angleterre",
+                "prix": 80,
+                "dateEdition": "2015",
+                "editionLimitee": true,
+                "couleur": "noir",
+                "couleurCSS": "black",
+                "description": "A Night at the Odeon : Enregistrement du concert de Noël 1975 à l’Hammersmith Odeon, capturant Queen au sommet de sa puissance scénique avec des versions énergiques des titres de l’album.",
+                "image": "QO.png"
+            }
+        ]
+    },
+    {
+        "artiste": "Led Zeppelin",
+        "epoque": "Années 70's",
+        "genre": "rock",
+        "nom": "Led Zeppelin III",
+        "popularite": 3.5,
+        "image": "LZ1.png",
+        "ListeEditions": [
+            {
+                "label": "Atlantic Records",
+                "pays": "Angleterre",
+                "prix": 25,
+                "dateEdition": "1988",
+                "type": "cassette",
+                "editionLimitee": false,
+                "couleur": "noir",
+                "couleurCSS": "black",
+                "description": "Édition tardive au format cassette, reflet de la transition vers l’écoute nomade à la fin des années 1980, reprenant l’album acoustique et folk-blues du groupe.",
+                "image": "LZC.png"
+            },
+            {
+                "label": "Atlantic Records",
+                "pays": "Etats-Unis",
+                "prix": 80,
+                "dateEdition": "1970",
+                "type": "vinyl",
+                "editionLimitee": true,
+                "couleur": "rouge",
+                "couleurCSS": "red",
+                "description": "Pressage collector coloré, recherché pour sa rareté, conservant le mix original et l’iconique pochette à roue rotative.",
+                "image": "LZR.png"
+            },
+            {
+                "label": "Atlantic Records",
+                "pays": "Etats-Unis",
+                "prix": 30,
+                "dateEdition": "1973",
+                "type": "vinyl",
+                "editionLimitee": false,
+                "couleur": "noir",
+                "couleurCSS": "black",
+                "description": "Réédition standard sur vinyle noir, offrant une écoute fidèle et accessible de cet album charnière mêlant folk, rock et influences celtiques.",
+                "image": "LZB.png"
+            }
+        ]
+    },
+    {
+        "artiste": "Michael Jackson",
+        "epoque": "Années 80's",
+        "genre": "Pop",
+        "nom": "Bad",
+        "popularite": 4.5,
+        "image": "MJ1.png",
+        "ListeEditions": [
+            {
+                "label": "Epic Records",
+                "pays": "Etats-Unis",
+                "prix": 45,
+                "dateEdition": "1987",
+                "type": "vinyl",
+                "editionLimitee": false,
+                "couleur": "noir",
+                "couleurCSS": "black",
+                "description": "Pressage original de l’album emblématique de l’ère Bad, porté par une production pop-funk sophistiquée, des sonorités synthétiques marquées et cinq singles classés n°1.",
+                "image": "MJB.png"
+            },
+            {
+                "label": "Parlophone",
+                "pays": "Etats-Unis",
+                "prix": 35,
+                "dateEdition": "2000",
+                "type": "vinyl",
+                "editionLimitee": false,
+                "couleur": "Picture Disc",
+                "couleurCSS": "#",
+                "description": "Édition collector illustrée sortie à des fins commémoratives, privilégiant l’objet visuel et le design iconique de l’album, plus que la performance audiophile.",
+                "image": "MJP.png"
+            }
+        ]
+    },
+    {
+        "artiste": "Lana Del Rey",
+        "epoque": "Années 2020s",
+        "genre": "Pop",
+        "nom": "DYKTTATUOB",
+        "popularite": 2.5,
+        "image": "LDR.png",
+        "ListeEditions": [
+            {
+                "label": "Interscope",
+                "pays": "Etats-Unis",
+                "prix": 35,
+                "dateEdition": "2023",
+                "type": "vinyl",
+                "editionLimitee": false,
+                "couleur": "noir",
+                "couleurCSS": "black",
+                "description": "Pressage standard offrant une restitution fidèle de l’album, marqué par une écriture introspective, des arrangements épurés et une production cinématographique.",
+                "image": "LDR1.png"
+            },
+            {
+                "label": "Interscope",
+                "pays": "Etats-Unis",
+                "prix": 45,
+                "dateEdition": "2023",
+                "type": "vinyl",
+                "editionLimitee": false,
+                "couleur": "rose",
+                "couleurCSS": "pink",
+                "description": "Édition colorée mettant en avant l’esthétique romantique et mélancolique du projet, très appréciée des collectionneurs contemporains.",
+                "image": "LDRP.png"
+            },
+            {
+                "label": "Interscope",
+                "pays": "Etats-Unis",
+                "prix": 45,
+                "dateEdition": "2023",
+                "type": "vinyl",
+                "editionLimitee": false,
+                "couleur": "orange",
+                "couleurCSS": "orange",
+                "description": "Variante visuelle audacieuse soulignant la dimension artistique et expérimentale de l’album, entre spoken word et ballades orchestrales.",
+                "image": "LDRO.png"
+            },
+            {
+                "label": "Interscope",
+                "pays": "Etats-Unis",
+                "prix": 85,
+                "dateEdition": "2023",
+                "type": "vinyl",
+                "editionLimitee": false,
+                "couleur": "white",
+                "couleurCSS": "blanc",
+                "description": "Édition premium à l’esthétique minimaliste, recherchée pour sa rareté et son objet collector plus que pour une différence sonore.",
+                "image": "LDRW.png"
+            }
+        ]
+    }
+]
