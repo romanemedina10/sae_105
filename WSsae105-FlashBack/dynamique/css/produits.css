@@ -1,0 +1,135 @@
+.produits {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.produits-title {
+    font-family: "Audiowide", sans-serif;
+    font-size: 4rem;
+    color: #82C4CF;
+    margin: 0 0 -30px 0;
+    padding-left: 2rem;
+}
+
+.produits-blocks {
+    display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.produits-block h3 {
+
+    margin-top: 1rem;
+    font-size: 2rem;
+    color:#82C4CF;
+    z-index: 2;
+
+}
+
+@media (min-width: 900px) {
+  .produits-blocks {
+    grid-template-columns: 320px 1fr; 
+    align-items: start;
+  }
+}
+.produits-block {
+  background: #2B2D42;
+  color: #F8FCFC;
+  border-radius: 16px;
+  padding: 1.5rem;
+  height: 100%;
+  margin-top: 2rem;
+}
+.produits-block p {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 0.95rem;
+  opacity: 0.95;
+}
+
+.produits-article {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+@media (min-width: 600px) {
+  .produits-article {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1100px) {
+  .produits-article {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+.produit {
+  background: #ffffff;
+  border: 1px solid rgba(43, 45, 66, 0.12);
+  border-radius: 16px;
+  overflow: hidden;
+  padding: 0 0 1.2rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.produit:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.10);
+}
+
+.produit figure {
+  margin: 0;
+  width: 100%;
+  aspect-ratio: 1 / 1; /* carré */
+  background: #0f1222;
+  overflow: hidden;
+}
+
+.produit img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.produit h4 {
+  margin: 1rem 1rem 0.5rem;
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
+.produit-genre,
+.epoque,
+.popularite {
+  margin: 0 1rem 0.4rem;
+  font-size: 0.9rem;
+  color: rgba(43, 45, 66, 0.75);
+}
+.popularite {
+  min-height: 1.2em;
+}
+
+.autres {
+  margin: 0.8rem 1rem 0;
+  display: inline-block;
+  align-self: flex-start;
+  padding: 0.65rem 0.9rem;
+  border-radius: 12px;
+  background: #2B2D42;
+  color: #F8FCFC;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: opacity 0.15s ease;
+}
+
+.autres:hover {
+  opacity: 0.9;
+}
+
+
+
