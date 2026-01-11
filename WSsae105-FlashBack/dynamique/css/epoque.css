@@ -1,0 +1,139 @@
+
+
+#epoques {
+   
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.epoque {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    width: 20%;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 10px 10px 10px rgb(83, 82, 82,);
+}
+
+.epoque:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgb(120, 119, 119);
+    transition: all 0.3s ease-in-out;
+}
+
+h1{
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
+
+.image{
+    width: 100%;    
+}
+
+img{
+    width: 100%;    
+}
+
+.footer {
+    background-color: #23253a;
+    padding: 0px;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* GAUCHE */
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-left a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-left a:hover {
+    color: blue;
+}
+
+
+/* CENTRE */
+.footer-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+    background-image: url("../test/media/logoindigo.png"); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+}
+.logo:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* DROITE */
+.footer-right {
+    text-align: left;
+}
+
+.newsletter-title {
+    font-size: 14px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.newsletter {
+    display: flex;
+    background-color: #2f314b;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.newsletter input {
+    border: none;
+    background: transparent;
+    padding: 12px 16px;
+    color: white;
+    outline: none;
+    width: 200px;
+}
+
+.newsletter input::placeholder {
+    color: #cbd5e1;
+}
+
+.newsletter button {
+    border: none;
+    background-color: #fde68a;
+    padding: 12px 22px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.newsletter button:hover {
+    background-color: #fcd34d;
+}  
+
