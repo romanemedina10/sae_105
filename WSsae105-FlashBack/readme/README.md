@@ -26,9 +26,9 @@
 - [Elements supplémentaires](#p14)
 
 ## Justification Nom <a id="p1"></a>
--Nous souhaitions un nom facile à retenir, évocateur qui ne laisse pas de place au doute et évidemment en rapport avec notre site et ce qu'on propose comme service, c'est là que nous ai venu l'idée de l'appeler "FlashBack", ce nom exprime tout de suite ce que nous souhaitons offrir, de la nostalgie et des souvenirs ravivés !
+- Nous souhaitions un nom facile à retenir, évocateur qui ne laisse pas de place au doute et évidemment en rapport avec notre site et ce qu'on propose comme service, c'est là que nous ai venu l'idée de l'appeler "FlashBack", ce nom exprime tout de suite ce que nous souhaitons offrir, de la nostalgie et des souvenirs ravivés !
 ## Objectif du site <a id="p2"></a>
->Notre site a pour but de permettre à quiconque de renouer avec ses souvenirs, revivre des moments de bonheurs intenses ou d'enfin pouvoir vivre les concerts des plus grands artistes ayant bercé les jeunesse de ceux qui ne sont plus tout jeune. Notre but est de permettre au plus agé et au plus jeune de pouvoir partager une expérience commune forte et émouvante autour d'un centre d'intérèt que nous (Romane et Chris) partageons, la musique.
+- Notre site a pour but de permettre à quiconque de renouer avec ses souvenirs, revivre des moments de bonheurs intenses ou d'enfin pouvoir vivre les concerts des plus grands artistes ayant bercé les jeunesse de ceux qui ne sont plus tout jeune. Notre but est de permettre au plus agé et au plus jeune de pouvoir partager une expérience commune forte et émouvante autour d'un centre d'intérèt que nous (Romane et Chris) partageons, la musique.
 ## Motivation <a id="p3"></a>
 >Chris
 
