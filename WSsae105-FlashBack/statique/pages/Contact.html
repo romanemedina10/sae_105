@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="author" content="Medina/Regis" >
-    <meta name="keywords" content="Flashback, musique, concert" >
-    <meta name="description" content="presentation des coulisses" >
+    <meta name="author" content="Medina/Regis">
+    <meta name="keywords" content="Flashback, musique, concert">
+    <meta name="description" content="presentation des coulisses">
     <title>Contact</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="../css/contact.css" />
+    <link rel="stylesheet" type="text/css" href="../css/php.css" />
     <link rel="icon" type="image/png" href="../media/favicon.png">
 </head>
 
@@ -23,7 +25,7 @@
                 <a class="header-link" href="contact.html">Nous contacter</a>
             </div>
             <div>
-                <a href="../index.html"  class="header-logo" aria-label="Retour à l'accueil">
+                <a href="../index.html" class="header-logo" aria-label="Retour à l'accueil">
                     <img src="../media/logo_cream.svg" alt="FlashBack">
                 </a>
             </div>
@@ -54,12 +56,43 @@
         <main>
             <figure><img src="../media/Romane.webp" alt="">
                 <figcaption>Romane Medina</figcaption>
-                <div><p>romane.medina7@etu.univ-lorraine.fr</p></div>
+                <div>
+                    <p>romane.medina7@etu.univ-lorraine.fr</p>
+                </div>
             </figure>
             <figure><img src="../media/Chris.webp" alt="">
-            <figcaption>Chris Régis Noel</figcaption>
-            <div><p>chris.regis3@etu.univ-lorraine.fr</p></div>
+                <figcaption>Chris Régis Noel</figcaption>
+                <div>
+                    <p>chris.regis3@etu.univ-lorraine.fr</p>
+                </div>
             </figure>
+            <div class="contact-form-wrapper">
+            <h2>Formulaire de contact</h2>
+            <div class="message-form">
+                <form action="../../envoieMail.php" method="get">
+                    <label>
+                        Destinataire :
+                        <input type="email" name="dest" required>
+                    </label><br>
+
+                    <label>
+                        Expéditeur :
+                        <input type="email" name="exped" required>
+                    </label><br>
+
+                    <label>
+                        Sujet :
+                        <input type="text" name="sujet" required>
+                    </label><br>
+
+                    <label>
+                        Message :
+                        <textarea name="message" required></textarea>
+                    </label><br>
+
+                    <button type="submit">Envoyer</button>
+                </form>
+
         </main>
         <section class="partners">
             <h2> Nos Partenaires</h2>

@@ -1,0 +1,67 @@
+.contact-form-wrapper {
+    width: 320px;
+}
+
+.contact-form-wrapper h2 {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+/* CONTENEUR FORMULAIRE */
+.message-form {
+    width: 300px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* LABELS */
+.message-form label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-bottom: 4px;
+    color: #000;
+}
+
+/* INPUTS & TEXTAREA */
+.message-form input,
+.message-form textarea {
+    width: 100%;
+    padding: 6px 8px;
+    margin-bottom: 14px;
+    border: 1px solid #bdbdbd;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-family: inherit;
+}
+
+/* TEXTAREA */
+.message-form textarea {
+    min-height: 80px;
+    resize: vertical;
+}
+
+/* FOCUS */
+.message-form input:focus,
+.message-form textarea:focus {
+    outline: none;
+    border-color: #7ec6cf;
+}
+
+/* BOUTON */
+.message-form button {
+    padding: 6px 18px;
+    border: 1px solid #000;
+    background-color: #fff;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.message-form button:hover {
+    background-color: #000;
+    color: #fff;
+}

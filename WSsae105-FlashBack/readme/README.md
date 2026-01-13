@@ -40,6 +40,7 @@
 
 ## JSon <a id="p5"></a>
 ## Arborescence du site <a id="p6"></a>
+[arborescence](../statique/media/arbo.webp)
 ## Favicon <a id="p7"></a>
 ![favicon](../statique/media/favicon.png)
  32x32
